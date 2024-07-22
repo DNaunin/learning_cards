@@ -16,9 +16,9 @@ export default function Card ({
 }: Card) {
   return (
     <div className='card-container'>
-      <img src={imgSrc} alt={imgAlt} className='card-img'/>
-      <h1 className='card-title'>{title}</h1>
-      <p className='card-description'>{description}</p>
+      {imgSrc && imgAlt && (<img src={imgSrc} alt={imgAlt} className='card-img'/>)}
+      {title && (<h1 className='card-title'>{title}</h1> )}
+      {description && (<p className='card-description'>{description}</p> )}
       <button className='card-btn'>More Info</button>
     </div>
   );

@@ -1,0 +1,9 @@
+{
+    "cards": [
+      { "name": "Next.js", "imgSrc": "nextjs", "imgAlt": "Logo von Next.js", "descriptions": "Next.js ist ein Open-Source-Webframework, das auf React basiert und von Vercel entwickelt wurde. Es wird verwendet, um serverseitig gerenderte (SSR) und statisch generierte Websites zu erstellen." },
+      { "name": "React", "imgSrc": "react", "imgAlt": "Logo von React", "descriptions": "React ist eine beliebte JavaScript-Bibliothek, die von Facebook entwickelt wurde und zur Erstellung von Benutzeroberflächen (UIs) verwendet wird." },
+      { "name": "Vue", "imgSrc": "vue", "imgAlt": "Logo von Vue", "descriptions": "Vue.js ist ein progressives JavaScript-Framework, das von Evan You entwickelt wurde und zur Erstellung von Benutzeroberflächen (UIs) und Single-Page-Anwendungen (SPAs) verwendet wird." },
+      { "name": "Node", "imgSrc": "node", "imgAlt": "Logo von Node", "descriptions": "Node.js ist eine JavaScript-Laufzeitumgebung, die es ermöglicht, serverseitigen Code in JavaScript zu schreiben. Es wurde 2009 von Ryan Dahl entwickelt und basiert auf der V8-JavaScript-Engine von Google, die auch in Google Chrome verwendet wird." }
+    ]
+  }
+  
