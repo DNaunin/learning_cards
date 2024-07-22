@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './logo.svg'; 
-import Card from './components/Card'
+import CardList from './components/CardList'
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <header className="App-header">
         Learning Cards
       </header>
-      <Card imgSrc={logo} imgAlt='card image' title='Card title' description='Card description' />
+      <CardList />
     </div>
   );
 }
